@@ -26,15 +26,17 @@ How To
 1. Make sure [Docker](https://www.docker.com) is installed.
 2. Make sure you have your [Bower](http://bower.io)-based project in a directory like `/path/to/my-project`, and it contains the file `/path/to/my-project/bower.json`
 3. Check out _docker-bower_ from [GitHub](https://github.com)
-
-       git clone https://github.com/fstab/docker-bower.git
-
+   ```bash
+   git clone https://github.com/fstab/docker-bower.git
+   ```
 4. Build the docker image
-
-       docker build -t="fstab/ubuntu-with-bower:v1" .
+   ```bash
+   docker build -t="fstab/ubuntu-with-bower:v1" .
+   ```
 
 5. Run a docker container from that image, and map `/path/to/my-project` into that container
-
-       docker run -v /path/to/my-project:/home/bower/workspace -t -i fstab/ubuntu-with-bower:v1
+   ```bash
+   docker run -v /path/to/my-project:/home/bower/workspace -t -i fstab/ubuntu-with-bower:v1
+   ```
 
 The container will spawn a `bash` shell that you can use to run [Bower](http://bower.io) commands (like `bower install --save` for adding new bower components), and it runs a HTTP server on port `8000` for viewing the project.
