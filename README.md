@@ -1,7 +1,7 @@
 docker-bower
 ============
 
-Develop [Bower](http://bower.io) projects without installing bower on your host system.
+Develop [Bower](http://bower.io) projects without installing bower.
 
 Background
 ----------
