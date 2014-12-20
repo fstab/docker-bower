@@ -40,7 +40,8 @@ How To
 5. Run a docker container from that image, and map `/path/to/my-project` into that container
 
    ```bash
-   docker run -v /path/to/my-project:/home/bower/workspace -t -i fstab/ubuntu-with-bower:v1
+   MY_PROJECT="/path/to/my-project"
+   docker run -v "$MY_PROJECT:/home/bower/workspace" -t -i fstab/ubuntu-with-bower:v1
    ```
 
 The container will spawn a `bash` shell that you can use to run [Bower](http://bower.io) commands (like `bower install --save` for adding new bower components), and it runs a HTTP server on port `8000` for viewing the project.
