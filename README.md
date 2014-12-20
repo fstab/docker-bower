@@ -37,7 +37,7 @@ How To
    docker build -t="fstab/ubuntu-with-bower:v1" .
    ```
 
-5. Run a docker container from that image, and map `/path/to/my-project` into that container (_Replace `/path/to/my-project` with the path to your project_).
+5. Run a docker container from that image, and map `/path/to/my-project` into that container (_replace `/path/to/my-project` with the path to your project_).
 
    ```bash
    MY_PROJECT="/path/to/my-project"
