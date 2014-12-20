@@ -18,7 +18,7 @@ which will create a sub-folder `bower_components` and download the dependencies 
 About docker-bower
 ------------------
 
-If you want to play with a [Bower](http://bower.io)-based project like [Polymer](https://www.polymer-project.org), you might not want to install [Bower](http://bower.io) and all its dependencies on your system. With _docker-bower_ you can isolate the environment in a [Docker](https://www.docker.com) container and install all dependencies there.
+If you want to play with a [Bower](http://bower.io)-based project like [Polymer](https://www.polymer-project.org), you might not want to install [Bower](http://bower.io) and all its dependencies on your system. With _docker-bower_ you can isolate the environment in a [Docker](https://www.docker.com) container and install all dependencies there. Once you are done, remove the container, and your system stays clean.
 
 How To
 ------
