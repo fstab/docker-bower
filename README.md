@@ -9,7 +9,7 @@ Background
 [Bower](http://bower.io) is a dependency management tool often used in Web front-end development.
 For example, the [polymer project](https://www.polymer-project.org) uses [Bower](http://bower.io) as its recommended installation tool.
 
-If you check out a [Bower](http://bower.io) project from [GitHub](https://github.com), it will typically contain a `bower.json` file which lists the dependencies for that project. In order to download these dependencies, you run
+If you check out a [Bower](http://bower.io)-based project from [GitHub](https://github.com), it will typically contain a `bower.json` file which lists the dependencies for that project. In order to download these dependencies, you run
 
     bower install
 
@@ -18,14 +18,14 @@ which will create a sub-folder `bower_components` and download the dependencies 
 About docker-bower
 ------------------
 
-If you want to play with a project like [polymer](https://www.polymer-project.org), you might not want to install [Bower](http://bower.io) and all its dependencies on your system. With `docker-bower` you can set up the environment in a [Docker](https://www.docker.com) container and install all dependencies there.
+If you want to play with a [Bower](http://bower.io)-based project like [polymer](https://www.polymer-project.org), you might not want to install [Bower](http://bower.io) and all its dependencies on your system. With _docker-bower_ you can set up the environment in a [Docker](https://www.docker.com) container and install all dependencies there.
 
 How To
 ------
 
 1. Make sure [Docker](https://www.docker.com) is installed.
 2. Make sure you have your [Bower](http://bower.io)-based front-end project in a directory like `/path/to/my-project`, and it contains the file `/path/to/my-project/bower.json`
-2. Check out `docker-bower` from [GitHub](https://github.com)
+2. Check out _docker-bower_ from [GitHub](https://github.com)
 
     git clone https://github.com/fstab/docker-bower.git
 
