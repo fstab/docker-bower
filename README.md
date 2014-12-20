@@ -33,6 +33,7 @@ How To
 4. Build the docker image
 
    ```bash
+   cd docker-bower
    docker build -t="fstab/ubuntu-with-bower:v1" .
    ```
 
