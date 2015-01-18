@@ -23,7 +23,7 @@ If you want to play with a [Bower](http://bower.io)-based project like [Polymer]
 Run from Docker Hub
 -------------------
 
-A pre-built image is available on [Docker Hub](https://registry.hub.docker.com/u/fstab/aws-cli). It can be run as follows:
+A pre-built image is available on [Docker Hub](https://registry.hub.docker.com/u/fstab/bower). It can be run as follows:
 
 1. Make sure you have your [Bower](http://bower.io)-based project in a directory like `/path/to/my-project`, and it contains the file `/path/to/my-project/bower.json`
 
@@ -50,5 +50,5 @@ Build from Source
 
    ```bash
    cd docker-bower
-   docker build -t="fstab/ubuntu-with-bower" .
+   docker build -t="fstab/bower" .
    ```
