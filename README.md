@@ -3,8 +3,8 @@ docker-bower
 
 Develop [Bower](http://bower.io) projects without installing bower.
 
-Background
-----------
+About Bower
+-----------
 
 [Bower](http://bower.io) is a dependency management tool often used in Web front-end development.
 For example, the [Polymer project](https://www.polymer-project.org) uses [Bower](http://bower.io) as its recommended installation tool.
